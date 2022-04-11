@@ -52,3 +52,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = sophie4489@hotmail.fr
+	name = sophie sorin

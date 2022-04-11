@@ -12,6 +12,7 @@ export HOMEBREW_NO_ANALYTICS=1
 # Disable warning about insecure completion-dependent directories
 ZSH_DISABLE_COMPFIX=true
 
+
 # Actually load Oh-My-Zsh
 source "${ZSH}/oh-my-zsh.sh"
 unalias rm # No interactive rm by default (brought by plugins/common-aliases)
@@ -69,3 +70,4 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+sudo /etc/init.d/postgresql start
